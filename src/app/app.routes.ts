@@ -96,7 +96,7 @@ export const routes: Routes = [
 },
 {
   path: 'products',
-  component: ProductComponent, // importa esto arriba
+  component: ProductComponent,
   data: { 
     authorities: [
       IRoleType.admin, 
